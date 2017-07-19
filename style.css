@@ -1,0 +1,129 @@
+/* Base CSS */
+/* fonts  */
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Montserrat:400,700'); 
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea {
+    border: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+input[type="submit"], button[type="submit"] {
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    padding: 15px 30px;
+    width: auto;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Droid Serif', serif;
+} 
+
+*/*
+font {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+*/*
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+.section-padding {
+    padding: 80px 0;
+    position: relative;
+}
+body {
+    background-color: #ebeaf0;
+}
+.slide-lady-self {
+    background-color: #76d3da;
+    padding: 69px 0;
+}
+img.kissing-lady {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+
+.slide-text {
+    color: #fff;
+    padding-left: 150px;
+    width: 550px;
+}
+.slide-title h4 {
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    position: relative;
+    text-transform: uppercase;
+}
+.slide-title h4::after {
+    background-color: #fff;
+    bottom: -10px;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}
+.slide-text h1 {
+    font-size: 53px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    margin-top: 65px;
+}
+.boxed-btn {
+    background-color: #f4f551;
+    border-radius: 50px;
+    -webkit-box-shadow: 0 10px 40px #f4f551;
+    box-shadow: 0 10px 40px #f4f551;
+    color: #333;
+    display: inline-block;
+    font-weight: 700;
+    padding: 15px 40px;
+    text-transform: uppercase;
+}
+.slide-text p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+.slide-text .boxed-btn {
+    margin-top: 25px;
+}
+
